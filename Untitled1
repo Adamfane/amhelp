@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+
+  <title>OnTheRightTrack</title>
+  <style>
+      h1 {
+  text-align: Center; 
+  font-family: serif; 
+  color:#cc6666 ;
+  background-color: ;
+  
+}
+  hr { font-size: 0.5em;}
+  p {font-size:24px; font-family: cursive;
+    
+  }
+  span {color: red; font-size: 32px;
+    
+  }
+  a  {
+    text-decoration: none; 
+    font-size: 24px;
+  
+  }
+  body li {display: inline-block;
+           margin: 10px;
+           float:;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    position: relative;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+li:hover > ul {
+    display: block;
+}
+    </style>
+    
+</head>
+<body>
+              <h1> Am Help! </h1>
+              <hr>
+    
+
+      
+    <li>
+       <a href="">Need Help ? </a> 
+        <ul>
+             <li><a href="">English</a></li>
+            <li><a href="chatcall.html">Math</a></li>
+            <li><a href="">Social Study</a></li>
+            <li><a href="">Science</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="">Want to Help?</a>
+        <ul>
+              <li><a href="">English</a></li>
+            <li><a href="">Math</a></li>
+            <li><a href="">Social Study</a></li>
+            <li><a href="">Science</a></li>
+        </ul>
+    </li>
+    <!-- etc. -->
+</ul>
+           
+         <a href="<SnapChat class=</SnapChat>">Snap Chat</a>
+          <a herf="<AskQuestion class=</AskQuestion>"> Ask a Question </a>
+            </ul> 
+           
+  				
+               
+</body>
+</html>    

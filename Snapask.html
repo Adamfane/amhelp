@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+
+  <title>Equation Editor</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <style>
+  
+      h1 {
+  text-align: Center; 
+  font-family: serif; 
+  color:#cc6666 ;
+  
+}
+  hr { font-size: 0.5em;}
+  p {font-size:24px; font-family: cursive;
+    
+  }
+  span {color: red; font-size: 32px;
+    
+  }
+  a  {
+    text-decoration: none; 
+    font-size: 24px;
+  
+  }
+  body li {display: inline-block;
+           margin: 10px;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    position: relative;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+li:hover > ul {
+    display: block;
+}
+
+ #EqnEditor { margin:0 auto; text-align:center;}
+  #hover { background-color:#FFFFCC; border:1px solid #999999; }
+  .lightbluebutton { background-color:#4068AE; }
+  .bluebutton { background-color:#003794; }
+  .greybutton { background-color:#888888; }
+
+
+    </style>
+    
+    
+    <link rel="stylesheet" type="text/css"
+  href="https://latex.codecogs.com/css/equation-embed.css" />
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="http://latex.codecogs.com/css/ie6.css" type="text/css"/>
+<![endif]-->
+<script type="text/javascript" 
+  src="https://latex.codecogs.com/js/eq_config.js" ></script>
+<script type="text/javascript" 
+  src="https://latex.codecogs.com/js/eq_editor-lite-18.js" ></script>
+
+
+<style type="text/css">
+#EqnEditor { text-align:left; }
+</style>
+</head>
+
+<body>
+      <ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+<h1>Example 1</h1>
+
+<div id="editor"></div>
+<textarea id="testbox" rows="3" cols="40"></textarea>
+<img id="equation" />
+
+<script type="text/javascript">
+EqEditor.embed('editor','','mini','en-us');
+
+var a=new EqTextArea('equation', 'testbox');
+EqEditor.add(a,false);
+</script>
+               
+</body>
+</html>  
